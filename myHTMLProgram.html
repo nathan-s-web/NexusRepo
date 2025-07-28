@@ -1,0 +1,151 @@
+<!DOCTYPE html> <!--this is a declaration that defines this document named myHTMLProgram as a HTML5 document-->
+<html lang="en-US"> <!--this is the root element of the HTML page, and the lang attribute specifies the language of the page, for browsers and search engines-->
+    <head> <!--this contains the meta data of the page-->
+        <title>Page Title</title>
+        <style>
+            th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                background-color: #96D4D4;
+                border-color: white;
+                border-radius: 5px;
+            }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:brown;
+            border-color:white;
+        }
+        li {float: left;}
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: burlywood;
+        }
+        </style>
+    </head>
+    <body> <!--this contains the visible content of the page-->
+        <h1>Welcome to My First Webpage!</h1>
+        <h2>Just doing this for the knowledge</h2>
+        <h3>Hope I can defend the degree</h3>
+        <h4>Can't lie, the certificate's almost useless</h4>
+        <h5>Let's see where this goes</h5>
+        <h6>Thanks for reading</h6>
+        <p>Enjoy the Gallery</p>
+        <a href="behance.com">Click this link for the Behance!</a>
+            <!--this is a link, defined with the <a> tag. the link's destination is specified with the href attribute-->
+            <!--think of tags as a function that carry parameters within the right and left arrows of the tag, after the tag identifier-->
+        <img src="W3Schools.jpeg" alt="W3Schools.com" width="200" height="142">
+            <!--src, alt, width and height are all attributes used in the img tag-->
+            <!--src is used to specify the source image, i.e. the image to be displayed-->
+            <!--alt is alternative text-->
+            <!--image to be used must be in the same folder as the HTML document-->
+        <p>This is a paragraph <br> with a line break.</p>
+        <p style="color:red">This is a red paragraph achieved whose color was achieved with a style attribute</p>
+        <p title="I'm a tooltip">This is a paragraph with additional information about it that is shown when you hover your cursor over it</p>
+
+    <!--A Look at Tables-->
+    <table style="width:100%"> <!--creates/defines a table-->
+        <tr> <!--refers to a row in the table-->
+            <th>Name</th> <!--th means table header, referring to a table's fields-->
+            <th>Age</th>
+            <th>School</th>
+        </tr>
+        <tr>
+            <td>Nathan</td> <!--td means table data, refering to the content of a data cell-->
+            <td>19</td>
+            <td>Nile University</td>
+        </tr>
+        <tr>
+            <td>Jason</td>
+            <td>17</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>Julius</td>
+            <td>Nile University</td>
+        </tr>
+    </table>
+    
+    <table style="width:100%"> <!--creates/defines SECOND table-->
+        <tr> <!--refers to a row in the table-->
+            <th>Name</th> <!--th means table header, referring to a table's fields-->
+            <th>Age</th>
+            <th>School</th>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Nathan</td> <!--td means table data, refering to the content of a data cell-->
+            <td>19</td>
+            <td>Nile University</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>Samuel</td>
+            <td>Julius</td>
+            <td>Nile University</td>
+        </tr>
+    </table>
+
+    <div> <!--for editability-->
+    <table border=1> <!--easier way of including a border-->
+        <thead> <!--alternative way of creating column heads-->
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </thead>
+    </table>
+    </div>>
+
+    <!--A Look at Lists-->
+    <ul style="list-style-type:square"> <!--specifies an unordered list-->
+        <li>Nathan</li> <!--specifies a list item-->
+        <li>Najib</li>
+        <li>Sarki</li>        
+    </ul>
+    <ol> <!--specifies an ordered list-->
+        <li>Favour</li>
+        <li>Amani</li>
+        <li>Dogo</li>
+    </ol>
+    <dl> <!--specifies a description list-->
+        <dt>Nathan</dt> <!--described term-->
+        <dd> - streetwear graphic designer.</dd> <!--description-->
+        <dt>Samuel</dt>
+        <dd> - a trader.</dd>
+    </dl>
+    <!--Nested Lists-->
+    <ol>
+        <li>
+            Tea Types
+            <ul style="list-style-type:none">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+        </li>
+        <li>
+            Love Languages
+            <ul style="list-style-type:none">
+                <li style="color:red">Physical Touch</li>
+                <li style="color:blue">Words of Affirmation</li>
+            </ul>
+        </li>
+    </ol>
+
+    <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+    </body>
+</html>
