@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form Example</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="nigeria">Nigeria</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">I agree to the terms and conditions</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
